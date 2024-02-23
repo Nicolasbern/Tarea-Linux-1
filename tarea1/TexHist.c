@@ -4,7 +4,7 @@
 #define MAX_CHAR 256
 
 void histogramaCaracteres() {
-    char archivo[] = "texto de prueb.txt";
+    char archivo[] = "texto de prueba.txt";
     FILE *file;
     int c;
     int frequencia_caracter[MAX_CHAR] = {0};
